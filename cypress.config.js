@@ -13,7 +13,7 @@ module.exports = defineConfig({
         reportDir: "results",
         reportFilename: "report",
         charts: true,
-        overwrite: true,
+        overwrite: false,
         html: true,
         json: true
     }
