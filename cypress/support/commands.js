@@ -26,6 +26,6 @@
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 //
 //Tweak for log
-Cypress.Commands.add('log', (message) => {
+Cypress.Commands.overwrite('log', (message) => {
     console.log(`%c${message}`, 'color: green; font-weight: bold;');
   });
