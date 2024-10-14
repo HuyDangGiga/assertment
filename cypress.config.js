@@ -10,8 +10,10 @@ module.exports = defineConfig({
     specPattern: 'cypress/e2e/**/*.{js,jsx,ts,tsx}',
     reporter: 'cypress-mochawesome-reporter', // Specify the reporter here
       reporterOptions: {
+        reportDir: "results",
+        reportFilename: "report",
         charts: true,
-        overwrite: false,
+        overwrite: true,
         html: true,
         json: true
     }
