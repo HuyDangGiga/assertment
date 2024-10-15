@@ -14,7 +14,7 @@ module.exports = defineConfig({
     // Set up multiple reporters
     reporter: 'cypress-junit', // JUnit reporter
     reporterOptions: {
-      mochaFile: 'cypress/results/test-output.xml', // Path for JUnit report
+      mochaFile: 'cypress/results/test-[hash].xml', // Path for JUnit report
       toConsole: true, // Optional: log output to console
     },
 
