@@ -14,7 +14,7 @@
 // ***********************************************************
 
 // Import commands.js using ES2015 syntax:
-import './commands'
+import './commands';
 import 'cypress-log-to-output';
 // require('cypress-mochawesome-reporter').register();
 // Alternatively you can use CommonJS syntax:
