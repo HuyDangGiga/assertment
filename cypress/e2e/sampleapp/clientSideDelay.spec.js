@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-//import { onClientDelayPage } from "../../support/PageObject/ClientDelayPage"
+import { onClientDelayPage } from "../../support/PageObject/clientDelayPage"
 import { navigateTo } from "../../support/PageObject/navigationPage"
 
 describe('test suite',() => {
@@ -10,7 +10,7 @@ describe('test suite',() => {
         navigateTo.clientSideDelayPage()
 
         //TC2: Verify user can click on button and view the result
-        //onClientDelayPage.clickButtonAndWaitResult()
+        onClientDelayPage.clickButtonAndWaitResult()
         
     })
 })

@@ -1,4 +1,4 @@
-import { onClientDelayPage } from "../../support/PageObject/ClientDelayPage"
+import { onClientDelayPage } from "../../support/PageObject/clientDelayPage"
 import { onClassAttributePage } from "../../support/PageObject/classAttributePage"
 import { navigateTo } from "../../support/PageObject/navigationPage"
 import { onSampleAppPage } from "../../support/PageObject/sampleAppPage"
